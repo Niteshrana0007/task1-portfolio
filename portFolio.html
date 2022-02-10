@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+        crossorigin="anonymous"
+    />
+    <script src="toggle.js"></script>
+    <title>Portfolio website</title>
+    <link rel="icon" type="image/x-icon" href="./images/download.jpg">
+</head>
+<body>
+
+    <!-- header -->
+
+    <div class="topnav" id="myTopnav">
+        <a href="#welcome-section">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#welcome-section">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    <!-- welcome section -->
+    
+    <div class="about-container" id="welcome-section">
+        <div class="content-section">
+            <div class="title">
+                <h1>About </h1>
+            </div>
+            <div class="content">
+                <h3>Full Stack developer </h3>
+                <p>Hi! I'm a Front-end Developer, working and living in India.
+                        I'm extremely passionate about design and also creating
+                        great web-page in frontend development. If you're looking 
+                        for a custom and unique website feel free to contact me and
+                        I'll be glad to help you with your project!</p>
+                <div class="button">
+                    <a href="">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg">
+        </div>
+    </div>
+
+    <!-- Project section -->
+
+    <div class="main" id="projects">
+        <h1>Responsive Card Grid Layout</h1>
+        <ul class="cards">
+            <li class="cards_item">
+            <div class="card">
+                <div class="card_image">
+                    <a href="http://vatra.herokuapp.com/">
+                        <img src="./images/varta.png">
+                    </a>
+                </div>
+                <div class="card_content">
+                <h2 class="card_title">Varta.io</h2>
+                <p class="card_text">This is social media website, where user can upload thier photos and share with friends.</p>
+                <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+            </li>
+            <li class="cards_item">
+            <div class="card">
+                <div class="card_image">
+                    <a href="https://colg-project.web.app/">
+                        <img src="./images/colg.png">
+                    </a>
+                </div>
+                <div class="card_content">
+                <h2 class="card_title">E-commerce website</h2>
+                <p class="card_text">Used React to build this and added features like cart and search functionality.</p>
+                <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+            </li>
+            <li class="cards_item">
+            <div class="card">
+                <div class="card_image">
+                    <a href="https://niteshrana0007.github.io/ecomBootstrap/">
+                        <img src="./images/bootstrap.png">
+                    </a>
+                </div>
+                <div class="card_content">
+                <h2 class="card_title">Reasturant website</h2>
+                <p class="card_text">This is resturant website made using bootstrap and HTML, CSS.</p>
+                <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+            </li>
+            <li class="cards_item">
+            <div class="card">
+                <div class="card_image">
+                    <a href="https://niteshrana0007.github.io/UI-page/">
+                        <img src="./images/ui.png">
+                    </a>
+                </div>
+                <div class="card_content">
+                <h2 class="card_title">UI page</h2>
+                <p class="card_text">This is ui page made using react , tilt.js , styled component .Tilt.js is third party library used for making tilted images.</p>
+                <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+            </li>
+            <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="./images/todo.png"></div>
+                <div class="card_content">
+                <h2 class="card_title">TODO app</h2>
+                <p class="card_text">Tech used react , javascript .Added functionality like add , delete , update .</p>
+                <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+            </li>
+            <li class="cards_item">
+            <div class="card">
+                <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                <div class="card_content">
+                <h2 class="card_title">Portfolio website</h2>
+                <p class="card_text">Made a personal Portfolio website using HTML , CSS , javascript .Includes my projects and basic info about me</p>
+                <button class="btn card_btn">Read More</button>
+                </div>
+            </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- foooter -->
+    <footer>
+        <div class="footer-content" id="contact">
+            <h3>Let's work together...</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis harum non quibusdam neque exercitationem! At hic doloremque ut eligendi cupiditate animi a maiores architecto impedit, repellendus corporis mollitia dicta natus!</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">Full stack developer</a>  </p>
+            <div class="footer-menu">
+                <ul class="f-menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+</html>
